@@ -20,7 +20,8 @@ const routes = [
     {
         name: 'notFound',
         path: '/:catchAll(.*)',
-        component: NotFound
+        // component: NotFound
+        component: Home
     }
 ]
 
